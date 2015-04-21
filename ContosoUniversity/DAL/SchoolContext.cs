@@ -21,4 +21,3 @@ modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
     
 
-}
