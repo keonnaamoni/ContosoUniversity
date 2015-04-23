@@ -1,4 +1,5 @@
 ﻿using System;
+using ContosoUniversity.ViewModels;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.Linq;
