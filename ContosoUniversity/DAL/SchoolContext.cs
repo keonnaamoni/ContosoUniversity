@@ -1,4 +1,4 @@
-﻿using ContosoUniversity.Models;
+﻿using ContosoUniversity.ViewModels;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 

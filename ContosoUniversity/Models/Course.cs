@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace ContosoUniversity.Models
+namespace ContosoUniversity.ViewModels
 {
     public class Course
     {
