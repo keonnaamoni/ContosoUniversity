@@ -134,6 +134,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\Logger.cs" />
     <Compile Include="Migrations\201504201503306_InitialCreate.cs" />
     <Compile Include="Migrations\201504201503306_InitialCreate.Designer.cs">
       <DependentUpon>201504201503306_InitialCreate.cs</DependentUpon>
