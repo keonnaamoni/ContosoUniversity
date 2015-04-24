@@ -137,12 +137,11 @@
     </Compile>
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\Logger.cs" />
-    <Compile Include="Migrations\201504201503306_InitialCreate.cs" />
-    <Compile Include="Migrations\201504201503306_InitialCreate.Designer.cs">
-      <DependentUpon>201504201503306_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201504241340326_InitialCreate.cs" />
+    <Compile Include="Migrations\201504241340326_InitialCreate.Designer.cs">
+      <DependentUpon>201504241340326_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Migrations\DbMigrationsConfiguration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
@@ -205,8 +204,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201504201503306_InitialCreate.resx">
-      <DependentUpon>201504201503306_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201504241340326_InitialCreate.resx">
+      <DependentUpon>201504241340326_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
