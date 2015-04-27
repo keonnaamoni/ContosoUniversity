@@ -13,6 +13,7 @@ namespace ContosoUniversity.DAL
         public DbSet<OfficeAssignment> OfficeAssignments { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            this.Configuration.LazyLoadingEnabled = false;
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             modelBuilder.Entity<Course>()
             .HasMany(c => c.Instructors).WithMany(i => i.Courses)
