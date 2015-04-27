@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity;
-using ContosoUniversity.ViewModels;
+using ContosoUniversity.Models;
 using System.Data.Entity.SqlServer;
 namespace ContosoUniversity.DAL
 {

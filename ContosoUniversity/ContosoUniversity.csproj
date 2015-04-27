@@ -141,6 +141,10 @@
     <Compile Include="Migrations\201504241340326_InitialCreate.Designer.cs">
       <DependentUpon>201504241340326_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504271436507_DisplayFormat.cs" />
+    <Compile Include="Migrations\201504271436507_DisplayFormat.Designer.cs">
+      <DependentUpon>201504271436507_DisplayFormat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
@@ -207,6 +211,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201504241340326_InitialCreate.resx">
       <DependentUpon>201504241340326_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504271436507_DisplayFormat.resx">
+      <DependentUpon>201504271436507_DisplayFormat.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -9,7 +9,7 @@ using System.Web;
 using PagedList;
 using System.Web.Mvc;
 using ContosoUniversity.DAL;
-using ContosoUniversity.ViewModels;
+using ContosoUniversity.Models;
 using System.Data.Entity.Infrastructure;
 
 

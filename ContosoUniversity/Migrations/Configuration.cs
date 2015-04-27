@@ -1,6 +1,6 @@
 namespace ContosoUniversity.Migrations
 {
-    using ContosoUniversity.ViewModels;
+    using ContosoUniversity.Models;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;

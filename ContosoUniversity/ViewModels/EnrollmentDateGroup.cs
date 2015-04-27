@@ -1,11 +1,11 @@
 ﻿using System;
-using ContosoUniversity.ViewModels;
+using ContosoUniversity.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ContosoUniversity.ViewModels
+namespace ContosoUniversity.Models
 {
     public class EnrollmentDateGroup
     {

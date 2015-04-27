@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using ContosoUniversity.DAL;
-using ContosoUniversity.ViewModels;
+using ContosoUniversity.Models;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
