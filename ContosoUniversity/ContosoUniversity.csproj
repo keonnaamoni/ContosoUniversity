@@ -153,9 +153,15 @@
     <Compile Include="Migrations\201504271730452_ColumnFirstName.Designer.cs">
       <DependentUpon>201504271730452_ColumnFirstName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504271759366_FirstMidName.cs" />
+    <Compile Include="Migrations\201504271759366_FirstMidName.Designer.cs">
+      <DependentUpon>201504271759366_FirstMidName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Instructor.cs" />
+    <Compile Include="Models\OfficeAssignment.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -228,6 +234,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201504271730452_ColumnFirstName.resx">
       <DependentUpon>201504271730452_ColumnFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504271759366_FirstMidName.resx">
+      <DependentUpon>201504271759366_FirstMidName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
